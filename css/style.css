@@ -206,6 +206,11 @@ span {
   padding-bottom: 5%;
 }
 
+#skills {
+  display: flex;
+  flex-flow: column;
+}
+
 @media only screen and (min-width: 750px) {
   #skills-h3,
   .biopic {
