@@ -46,7 +46,7 @@ var projects = {
 	"projects": [{
 		"title": "Portfolio Webpage",
 	    "dates": "November 2015",
-	    "description": "An website with a sampling of projects I've completed.",
+	    "description": "A website with a sampling of projects I've completed.",
 	    "images": ["images/proj1-sm.jpg"]
 	}]
 };
@@ -68,6 +68,11 @@ bio.display = function() {
 	$("#topContacts").append(formattedGithub);
 	$("#topContacts").append(formattedTwitter);
 	$("#topContacts").append(formattedLocation);
+	$("#footerContacts").append(formattedMobile);
+	$("#footerContacts").append(formattedEmail);
+	$("#footerContacts").append(formattedGithub);
+	$("#footerContacts").append(formattedTwitter);
+	$("#footerContacts").append(formattedLocation);
 
 	var formattedBioPic = HTMLbioPic.replace("%data%", bio.biopic);
 	var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
